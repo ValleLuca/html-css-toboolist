@@ -1,5 +1,5 @@
 body {
-    background-color: grey;
+    background-color: #f6f8f9;
     margin: 0;
     padding: 0;
 }
@@ -24,10 +24,10 @@ header img {
 
 main {
     margin: auto;
-    width: 80%;
+    width: 70%;
     background-color: white;
     border-radius: 10px;
-    padding: 20px;
+    padding: 20px 40px;
 }
 
 .AddTask {
@@ -35,6 +35,7 @@ main {
     background-color: #46adf0;
     border-radius: 5px;
     padding: 5px 10px;
+    border: 1px solid #46adf0;
     
 }
 
@@ -43,5 +44,80 @@ main {
     background-color: white;
     border-radius: 5px;
     padding: 5px 10px;
+    border: 1px solid #c7ccd3;
 }
 
+section h2::before {
+    content: "▼" ;
+    font-size: 15px;
+    padding-right: 5px;
+}
+
+main section:first-child {
+    margin-bottom: 30px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+}
+
+.colorGreen {
+    color: green;
+    border: 1px solid green;
+    border-radius: 60px;
+    padding: 2px;
+}
+
+.colored {
+    color: red;
+}
+
+.RadiusBlue {
+    color: white;
+    background-color: #44aaea;
+    padding: 7px 10px;
+    font-size: 13px;
+    border-radius: 50px;
+}
+
+.RadiusViolet {
+    color: white;
+    background-color: #9d72e5;
+    padding: 5px 10px;
+    font-size: 13px;
+    border-radius: 50px;
+}
+
+.RadiusOrange {
+    color: white;
+    background-color: #f29e33;
+    padding: 5px 10px;
+    font-size: 13px;
+    border-radius: 50px;
+}
+
+.RadiusGreen {
+    color: white;
+    background-color: #64c0a9;
+    padding: 5px 10px;
+    font-size: 13px;
+    border-radius: 50px;
+}
+
+.RadiusPink {
+    color: white;
+    background-color: #d963a0;
+    padding: 5px 10px;
+    font-size: 13px;
+    border-radius: 50px;
+}
+
+.RadiusBrown {
+    color: white;
+    background-color: #b1c826;
+    padding: 5px 10px;
+    font-size: 13px;
+    border-radius: 50px;
+}
+
+section div {
+    padding-top: 10px;
+}
