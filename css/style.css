@@ -1,0 +1,47 @@
+body {
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white;
+     padding: 15px;
+     margin-bottom: 50px;
+}
+
+header img {
+    margin-left: 10px;
+    height: 50px;
+}
+
+#logo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+}
+
+main {
+    margin: auto;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.AddTask {
+    color: white;
+    background-color: #46adf0;
+    border-radius: 5px;
+    padding: 5px 10px;
+    
+}
+
+.AddSection {
+    color: #c7ccd3;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
