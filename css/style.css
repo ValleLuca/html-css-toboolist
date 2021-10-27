@@ -30,11 +30,14 @@ main {
     padding: 20px 40px;
 }
 
+.AddTask, .AddSection {
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
 .AddTask {
     color: white;
     background-color: #46adf0;
-    border-radius: 5px;
-    padding: 5px 10px;
     border: 1px solid #46adf0;
     
 }
@@ -42,8 +45,6 @@ main {
 .AddSection {
     color: #c7ccd3;
     background-color: white;
-    border-radius: 5px;
-    padding: 5px 10px;
     border: 1px solid #c7ccd3;
 }
 
@@ -64,10 +65,18 @@ main section:first-child {
     border: 1px solid green;
     border-radius: 60px;
     padding: 2px;
+    vertical-align: middle;
 }
 
 .colored {
     color: red;
+}
+
+.RadiusViolet, .RadiusGreen, .RadiusPink, .RadiusBrown, .RadiusOrange {
+    padding: 5px 10px;
+    font-size: 13px;
+    border-radius: 50px;
+    color: white;
 }
 
 .RadiusBlue {
@@ -79,43 +88,23 @@ main section:first-child {
 }
 
 .RadiusViolet {
-    color: white;
     background-color: #9d72e5;
-    padding: 5px 10px;
-    font-size: 13px;
-    border-radius: 50px;
 }
 
 .RadiusOrange {
-    color: white;
     background-color: #f29e33;
-    padding: 5px 10px;
-    font-size: 13px;
-    border-radius: 50px;
 }
 
 .RadiusGreen {
-    color: white;
     background-color: #64c0a9;
-    padding: 5px 10px;
-    font-size: 13px;
-    border-radius: 50px;
 }
 
 .RadiusPink {
-    color: white;
     background-color: #d963a0;
-    padding: 5px 10px;
-    font-size: 13px;
-    border-radius: 50px;
 }
 
 .RadiusBrown {
-    color: white;
     background-color: #b1c826;
-    padding: 5px 10px;
-    font-size: 13px;
-    border-radius: 50px;
 }
 
 section div {
